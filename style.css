@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tan #B68D40
+Cream #F4EBD0
+Charcoal #122620
+Gold #D6AD60 */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #122620;
+}
+
+header img{
+    height: 45px;
+    width: auto;
+}
+header ul{
+    padding: 0 20px;
+    display: flex;
+    color: #B68D40;
+    list-style: none;
+    gap: 20px;
+}
+
+.pag1 {
+    display: flex;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #122620;
+}
+
+.pag1 img {
+    position: relative;
+    height: 20rem;
+    margin-left: 20rem;
+}
+
+.pag1  h1 {
+    position: absolute;
+    background-color: transparent;
+    margin-left: -40rem;
+    color: #F4EBD0;
+    margin-top: -8rem;
+    font-size: 3rem;
+}
+
+.pag1 .h1cor {
+    background-color: transparent;
+    color: #b68d40;
+}
+
+.pag1 button {
+    position: absolute;
+    margin-left: -33rem;
+    margin-top: -5rem;
+    /*cores*/
+    background-color: #F4EBD0;
+    color: #B68D40;
+    border: none;
+    border-radius: 50px;
+    /*Tamanho*/
+    height: 40px;
+    width: 200px;
+}
+
+.explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #122620;
+}
+.explore h2{
+    color: #d6ad60;
+}
+
+.explore hr{
+    border: none;  
+    width: 300px;        
+    height: 2px;          
+    background-color: #F4EBD0; 
+}
+
+.catalogo{
+    display: flex;
+    justify-content: space-around;
+    background-color: #122620;
+    padding-left: 300px;
+    gap: 250px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #d6ad60;
+    color: #122620;
+    width: 310px;
+    height: 380px;
+    border-radius: 15px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.card h4{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.card .mmf{
+    margin-top: 100px;
+    margin-left: 5rem;
+    margin-right: 20px;
+}
+
+.card .mmf .line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .mmf h4{
+margin-top: 2rem;
+}
+
+.card .mmf button{
+    background-color: #B68D40;
+    color: #122620;
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+    /*Tamanho*/
+    height: 40px;
+    width: 170px;
+}
+
+.card-img{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-right: 170px;
+    margin-left: -30px;
+    margin-top: -18rem;
+    gap: 50px;
+}
+
+.card-img .car1 {
+    width: 327px;
+    height: 247px;
+    border-radius: 15px;
+}
+
+/* .brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #122620;
+    margin-top: 30px;
+    height: 80px;
+}
+
+.brands h2{
+    color: #d6ad60;
+}
+
+.brands hr{
+    border: none;  
+    width: 300px;        
+    height: 2px;          
+    background-color: #F4EBD0;
+}
+
+.brands-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 110px;
+    background-color: #122620;
+} */
+
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #122620;
+    margin-top: 30px;
+    height: 80px;
+}
+
+.services h2{
+    color: #d6ad60;
+}
+
+.services hr{
+    border: none;  
+    width: 300px;        
+    height: 2px;          
+    background-color: #F4EBD0;
+}
+
+.h4-ser h4 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #122620;
+    color: #B68D40;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.card-ser{
+    display: flex;
+    justify-content: space-around;
+    background-color: #122620;
+    padding-top: 30px;
+}
+
+.card-ser div{
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    width: 320px;
+    border-radius: 15px;
+    background-color: #d6ad60;
+    color: #122620;
+    padding-top: 20px;
+    padding-left: 20px;
+    gap: 30px;
+}
+
+.card-ser div img{
+height: 40px;
+width: 40px;
+}
+
+.card-ser div h5{
+    font-size: 23px;
+}
+
+.card-ser div p{
+    font-size: 20px;
+}
+
+.evs {
+    padding-top: 80px;
+    background-color: #122620;
+    display: grid;
+    justify-content: end;
+    padding-right: 160px;
+    height: 600px;
+
+}
+
+.evs .card-evs {
+    width: 600px;
+    height: 470px;
+    background-color: #d6ad60;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 70px;
+    gap: 50px;
+}
+
+.evs .card-evs h2 {
+    color: #122620;
+    font-size: 3rem;
+}
+
+.evs .card-evs p {
+    color: #122620;
+    font-size: 20px;
+}
+
+.evs .card-evs button {
+    background-color: #B68D40;
+    color: #122620;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+    /*Tamanho*/
+    height: 40px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+
+.imgev img {
+    position: relative;
+    margin-left: 420px;
+    height: auto;
+    width: 750px;
+    border-radius: 15px;
+}
